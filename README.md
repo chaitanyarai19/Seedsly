@@ -1,7 +1,9 @@
 <p align="center">
 <img src="https://capsule-render.vercel.app/api?type=soft&color=E29315&height=120&section=header&text=Welcome%20to%20Seedsly🌱&fontColor=FFF9F0&animation=fadeIn&fontSize=60" />
 </p>
+
 ## Inspiration :bulb:
+
 Agriculture being the most important sector of Indian Economy, accounts for 18% of India's GDP.  Agriculture thus needs reforms to help the country grow.
 Key Problems
 - Nowadays, it is seen that farmers tend to bear a loss while purchasing seeds from the market which are damaged and costly as well. 
