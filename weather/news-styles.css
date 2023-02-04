@@ -1,0 +1,659 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*----------------------- NEWS-----------------------------*/
+.news {
+  background: linear-gradient(0deg, hsl(240, 73%, 65%), hsl(273, 75%, 66%));
+  background-repeat: no-repeat;
+  width: 370px;
+  height: auto;
+  float: right;
+  margin: 30px;
+  margin-right: 0px;
+  margin-top: 11px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 8px hsla(240, 18%, 14%, 0.5);
+}
+
+.news .heading {
+  width: 100%;
+  height: 40px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  position: relative;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  top: 20px;
+  text-shadow: 0px 1px 3px black;
+}
+
+.news .state {
+  background-color: rgb(255, 255, 255);
+  width: 85%;
+  height: 40px;
+  margin: 20px 25px;
+  border-radius: 20px;
+  box-shadow: inset 0px 0px 8px hsla(240, 73%, 65%, 0.5);
+  color: hsl(237, 12%, 33%);
+}
+
+.news .state:hover {
+  box-shadow: inset 0px -3px 10px hsl(240, 73%, 65%),
+    0px 3px 5px rgba(0, 0, 0, 0.5);
+  color: orangered;
+}
+
+.name {
+  position: relative;
+  bottom: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  height: 50px;
+  width: 100%;
+}
+
+.font {
+  font-size: 16px;
+  justify-content: left;
+  margin-left: 20px;
+}
+
+.news .placeholder {
+  width: 20px;
+  position: relative;
+  left: 15px;
+}
+
+.news .plus {
+  width: 20px;
+  position: relative;
+  right: 15px;
+}
+
+.hide-icon {
+  display: none;
+}
+
+.city_s {
+  /* margin: auto;
+  width: 95%;
+  position: relative;
+  z-index: 1;
+  top: -10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: sans-serif;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-in-out; */
+  margin: auto;
+  width: 95%;
+  position: relative;
+  z-index: 1;
+  top: -10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: sans-serif;
+  max-height: 0;    
+  overflow: hidden;
+  transition: max-height 0.2s ease-in-out;
+}
+
+.city-name_s {
+  /* background-color: rgb(235, 237, 250);
+  box-shadow: inset 0px 0px 8px hsla(240, 73%, 65%, 1);
+  color: hsl(237, 12%, 33%);
+  width: 100%;
+  height: 12px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 10px; */ 
+  background-color: rgb(235, 237, 250);
+  border-radius: 20px;
+  box-shadow: inset 0px 0px 8px hsla(240, 73%, 65%, 1);
+  color: hsl(237, 12%, 33%);
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+
+/* ----------------RESOURCES---------------- */
+
+.resources {
+  width: 370px;
+  height: auto;
+  background: linear-gradient(0deg, hsl(240, 73%, 65%), hsl(273, 75%, 66%));
+  float: right;
+  margin: 30px;
+  margin-right: 0;
+  border-radius: 20px;
+  position: relative;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 5px 8px hsla(240, 18%, 14%, 0.5);
+
+}
+
+.resources .heading {
+  position: relative;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  top: 5px;
+  text-shadow: 0px 1px 3px black;
+}
+
+.inner-resource {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.resource-item {
+  background-color: #fff;
+  width: 61px;
+  height: 60px;
+  margin: 7px 7px;
+  border-radius: 20px;
+  box-shadow: inset 0px 0px 8px hsla(240, 73%, 65%, 0.5);
+
+}
+
+.resource-item:hover {
+  box-shadow: inset 0px -3px 10px hsl(240, 73%, 65%),
+    0px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.resource-item img {
+  margin: 7px;
+  width: 40px;
+}
+
+
+div,
+span,
+h2,
+h3,
+p,
+img,
+i,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+section {
+  display: block;
+}
+
+h2,
+h3 {
+  font-weight: bold;
+}
+
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+h3 {
+  margin: 0.75em 0 0;
+  font-weight: bold;
+  color: #000;
+  text-align: left;
+}
+
+h2 {
+  font-size: 1.2em;
+  color: #069;
+}
+
+h3 {
+  font-size: 1.1em;
+  color: #069;
+}
+
+p {
+  padding: 0;
+  margin: 1em 1em 1em 0;
+  line-height: 1.4em;
+}
+
+section {
+  padding: 15px 20px 10px 20px;
+  clear: both;
+}
+
+section h2 {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+#today {
+  background-color: #004e99;
+  color: #fff;
+  padding-right: 0;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  width:100vw;
+  margin-top: 10px;
+  /* margin-left: 0px; */
+  /* padding-left: 0px; */
+}
+
+#today h2 {
+  color: #fff;
+  width: 470px;
+  float: left;
+  padding-bottom: 20px;
+}
+
+.capitals {
+  clear: both;
+}
+
+.capital {
+  width: 150px;
+  margin-right: 5px;
+  margin-left:3px;
+  float: left;
+  background: url(https://mausam.imd.gov.in/img/today-cities-divider.png) no-repeat right center;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.last {
+  margin-right: 0;
+  padding-right: 0;
+  background-image: none;
+}
+
+.capital h3 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0 0 6px 0;
+}
+
+.capital h3:hover {
+  text-decoration: underline;
+}
+
+.now {
+  margin: 0;
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.now .val {
+  display: block;
+  padding-top: 0px;
+  font-size: 15px;
+  line-height:25px;
+  font-weight: bold;
+}
+
+.minmax {
+  margin: 0;
+  padding-top: 12px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.minmax .max {
+  color: #fddd71;
+}
+
+.precis {
+  height: 50px;
+  margin: 4px 0 0 0;
+  color: #bfdefb;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.wind {
+  margin: 0;
+  padding-top: 5px;
+  font-size: 13px;
+  line-height: 16px;
+  color: #fff;
+}
+
+.wind:hover,
+.wind:focus {
+  text-decoration: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+@media print {
+  img {
+    page-break-inside: avoid;
+  }
+
+  img {
+    max-width: 100% !important;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+
+  }
+}
+
+
+.fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.fa-tint:before {
+  content: "\f043";
+}
+
+.fas {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+
+.fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.fa-tint:before {
+  content: "\f043";
+}
+
+.fas {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+/*! CSS Used fontfaces */
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: url("https://mausam.imd.gov.in/webfonts/fa-regular-400.eot");
+  src: url("https://mausam.imd.gov.in/webfonts/fa-regular-400.eot#iefix") format("embedded-opentype"),
+    url("https://mausam.imd.gov.in/webfonts/fa-regular-400.woff2") format("woff2"),
+    url("https://mausam.imd.gov.in/webfonts/fa-regular-400.woff") format("woff"),
+    url("https://mausam.imd.gov.in/webfonts/fa-regular-400.ttf") format("truetype"),
+    url("https://mausam.imd.gov.in/webfonts/fa-regular-400.svg#fontawesome") format("svg");
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-display: auto;
+  src: url("https://mausam.imd.gov.in/webfonts/fa-solid-900.eot");
+  src: url("https://mausam.imd.gov.in/webfonts/fa-solid-900.eot#iefix") format("embedded-opentype"),
+    url("https://mausam.imd.gov.in/webfonts/fa-solid-900.woff2") format("woff2"),
+    url("https://mausam.imd.gov.in/webfonts/fa-solid-900.woff") format("woff"),
+    url("https://mausam.imd.gov.in/webfonts/fa-solid-900.ttf") format("truetype"),
+    url("https://mausam.imd.gov.in/webfonts/fa-solid-900.svg#fontawesome") format("svg");
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/webfonts/fa-regular-400.eot");
+  src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/webfonts/fa-regular-400.eot#iefix") format("embedded-opentype"),
+    url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/webfonts/fa-regular-400.woff2") format("woff2"),
+    url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/webfonts/fa-regular-400.woff") format("woff"),
+    url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/webfonts/fa-regular-400.ttf") format("truetype"),
+    url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/webfonts/fa-regular-400.svg#fontawesome") format("svg");
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-display: auto;
+  src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/webfonts/fa-solid-900.eot");
+  src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/webfonts/fa-solid-900.eot#iefix") format("embedded-opentype"),
+    url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/webfonts/fa-solid-900.woff2") format("woff2"),
+    url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/webfonts/fa-solid-900.woff") format("woff"),
+    url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/webfonts/fa-solid-900.ttf") format("truetype"),
+    url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/webfonts/fa-solid-900.svg#fontawesome") format("svg");
+}
+
+/*----------------- box -----------------------*/
+
+.empty-box {
+  position: absolute;
+  z-index: 1;
+  left: 50.5vw;
+  top: 358px;
+  width: 22vw;
+  height: 470px;
+  background-color: white;
+  box-sizing: 20px 20px 9px black,
+    -20px -20px 9px black;
+}
+
+       /* changes  */
+
+.container_w {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 400px;
+  min-width: 300px;
+  height: 400px;
+  margin: 0 auto;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  border-radius: none !important;
+  border: none;
+}
+
+.search-loaction input {
+   position:absolute;
+   top: 40px;
+  width: 88%;
+  height: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 25px;
+  color: black;
+  position: absolute;
+  left: 80px;
+  top: 15px;
+}
+
+.form-rounded {
+  border-radius: 2em;
+}
+
+      /* changes */
+      
+.back-card {
+  border-radius: 40px !important; 
+   overflow: hidden;
+  overflow-y: scroll;
+}
+
+.city-name {
+  position: absolute;
+  width: 100%;
+  /* color: black; */
+  background-color: none;
+  box-sizing: none;
+}
+
+.city-name p {
+  font-size: 23pt;
+  font-weight: 400;
+  position: absolute;
+  top: -50px;
+  left:23px;
+  z-index:1;
+}
+
+
+.temp span {
+  font-weight: 400;
+  font-size: 2em;
+  letter-spacing: -2px;
+  white-space: nowrap;
+  position: absolute;
+  left: 60px;
+  top: 200px;
+}
+.card-body_w
+{
+  height: 205px;
+}
+.card-mid {
+  line-height: 0.5;
+}
+
+.condition {
+  line-height: 1em;
+  font-weight: 700;
+  font-size: 1em;
+  text-transform: capitalize;
+}
+
+.high::before {
+  content: '';
+  /* background: url('img/up.svg') no-repeat; */
+  width: 10px;
+  height: 15px;
+  display: inline-block;
+  position: relative;
+  top: 3px;
+}
+
+.low::before {
+  content: '';
+  width: 10px;
+  height: 15px;
+  display: inline-block;
+  position: relative;
+  top: 3px;
+}
+
+.icon-container img {
+  margin: auto;
+}
+
+.card-bottom {
+  line-height: 0.5;
+}
+
+.card-bottom span {
+  font-size: 12px;
+}
+
+.card-bottom p {
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: -2px;
+}
+
+
+#button-addon1 {
+  color: #ffc371;
+}
+
+fa-paper-plane{
+  color: #ffc371;
+}
+
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic;
+}
+
+.form-control.shadow-0:focus {
+  box-shadow: none;
+}
+
+
+#container_map {
+  height: 400px; 
+  min-width: 310px; 
+  max-width: 800px; 
+  margin: 0 auto; 
+}
+.loading {
+  margin-top: 10em;
+  text-align: center;
+  color: gray;
+}
