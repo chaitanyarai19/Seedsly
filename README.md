@@ -9,16 +9,12 @@ Key Problems
 - Nowadays, it is seen that farmers tend to bear a loss while purchasing seeds from the market which are damaged and costly as well. 
 - The weather being an environmental factor poses a threat to the crops, in case of excess rains.
 - The farmers need to be aware of when to water their crops and exactly how much watering does it need. 
- 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 ## What it does? :gear:
 Our solution includes :
 - A platform where farmers can check weather forecasts,soil moisture and temperature and an integrated e-commerce website where farmers can purchase certified best quality seeds which enhances their crop production & reduces the losses .
 - An IoT device through which farmers can check the current soil moisture and proceed the irrigation process accordingly.
  
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
-
 ## Our Unique Features ✨
 
 ⭐ E-commerce website : Where a farmer can buy/sell quality & certified seeds.<br>
@@ -27,14 +23,11 @@ Our solution includes :
 ⭐ Live Weather forecasts : To let the farmers know about the appropriate seeds to be sowed according to the weather conditions at the moment.<br>
 ⭐ Internationalisation : To make our platform viable to all groups of people by eliminating the lingual barrier.<br>
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
-
 ## UI of the project :computer:
 Weather forecasts Dashboard | E-commerce | Admin Panel
 --- | --- | ---
 ![seedslydashboard](https://github.com/chaitanyarai19/Hacknova_TheMetadaters/blob/main/img/dashboard.jpg) | ![seedslye-commerce](./img/shop.jpg)| ![seedslyadmin](./img/admin.jpg)
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 ## Tech stack :book:
 - **Backend**-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
 - **Frontend**- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
