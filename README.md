@@ -26,7 +26,7 @@ Our solution includes :
 ## UI of the project :computer:
 Weather forecasts Dashboard | E-commerce | Admin Panel
 --- | --- | ---
-![seedslydashboard](https://github.com/chaitanyarai19/Hacknova_TheMetadaters/blob/main/img/dashboard.jpg) | ![seedslye-commerce](./img/shop.jpg)| ![seedslyadmin](./img/admin.jpg)
+![seedslydashboard](https://github.com/chaitanyarai19/Hacknova_TheMetadaters/blob/main/img/dashboard.jpg) | ![seedslye-commerce](./img/shop.jpg)| https://github.com/chaitanyarai19/Seedsly/blob/main/img/Screenshot%20(78).png
 
 ## Tech stack :book:
 - **Backend**-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
