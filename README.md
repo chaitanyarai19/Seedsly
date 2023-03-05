@@ -4,11 +4,12 @@
 
 ## Inspiration :bulb:
 
-Agriculture being the most important sector of Indian Economy, accounts for 18% of India's GDP.  Agriculture thus needs reforms to help the country grow.
+Agriculture being the most important sector of Indian Economy, accounts for 18% of India's GDP.  Agriculture thus needs reforms to help the country grow.<br>
 Key Problems
-- Nowadays, it is seen that farmers tend to bear a loss while purchasing seeds from the market which are damaged and costly as well. 
-- The weather being an environmental factor poses a threat to the crops, in case of excess rains.
-- The farmers need to be aware of when to water their crops and exactly how much watering does it need. 
+- Farmers often struggle with obtaining seeds that are of a consistent quality and are suitable for their specific growing conditions.
+- They have lack of access to reliable, high-quality seeds and soil information .
+- They often lack access to real-time weather and soil information that can greatly impact the success of their crops.
+
 
 ## What it does? :gear:
 Our solution includes :
@@ -19,9 +20,9 @@ Our solution includes :
 
 ⭐ E-commerce website : Where a farmer can buy/sell quality & certified seeds.<br>
 ⭐ An IoT device : It detects soil moisture content , which informs the farmer whether or not irrigation should be done , also the amount of irrigation to be done can be decided.<br>
-⭐ Seed Certification : We will verify every step of seed production & provide a certified check to ensure it's quality.<br>
+⭐ Supply Chain : Verification at every stage of production and provide a certified check to ensure seeds quality.<br>
 ⭐ Live Weather forecasts : To let the farmers know about the appropriate seeds to be sowed according to the weather conditions at the moment.<br>
-⭐ Internationalisation : To make our platform viable to all groups of people by eliminating the lingual barrier.<br>
+⭐ Instant Translation : To make our platform viable to all groups of people by eliminating the lingual barrier.<br>
 
 ## UI of the project :computer:
 Weather forecasts Dashboard | E-commerce | Admin Panel
